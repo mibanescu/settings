@@ -1,0 +1,7 @@
+========
+settings
+========
+
+Installation
+------------
+./install.sh
