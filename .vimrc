@@ -55,8 +55,8 @@ inoremap # X#
 "highlight BadWhiteSpace ctermbg=lightred guibg=lightred
 "match BadWhiteSpace /^\s*\t\s*\|\s\+$/
 "autocmd WinEnter * match BadWhiteSpace /^\s*\t\s*\|\s\+$/
-"Color in red everything after 80 chars
-autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+"Color in red everything after 118 chars
+autocmd BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>118v.\+', -1)
 autocmd BufWinEnter * let w:m3=matchadd('ErrorMsg', '\s\+$', -1)
 autocmd BufWinEnter * let w:m4=matchadd('ErrorMsg', '^ \+\t\+\|^\t\+ \+', -1)
 
