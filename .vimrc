@@ -34,7 +34,7 @@ set filetype=help
 set formatoptions=tcql
 set history=50
 set hlsearch
-set readonly
+"set readonly
 set ruler
 set shiftwidth=4
 set softtabstop=4
