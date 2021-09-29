@@ -68,6 +68,8 @@ call pathogen#helptags()
 filetype plugin indent on
 autocmd BufWritePost *.py call Flake8() 
 
+let g:python3_host_prog='~/virtualenv/nvim/bin/python'
+
 "let g:pymode_options=0
 "let g:pymode_doc=0
 "let g:pymode_rope=0
